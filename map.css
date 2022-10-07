@@ -1,0 +1,15 @@
+.map{
+	width: 720px;
+	height: 720px;
+	/* margin-top: 72px; */
+}
+
+[class*="copyrights-pane"]{
+	display: none !important;
+}
+
+[class*="ground-pane"]{
+	filter: brightness(0.72);
+}
+
+
