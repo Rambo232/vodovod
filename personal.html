@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=chrome">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Персонал</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/stars.css">
+	<link rel="icon" href="/svg/droplet.svg" type="image/svg+xml">
+	<!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+	<title>Персонал</title>
+</head>
+
+<body>
+
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
+	<header>
+		<nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark">
+			<!--sticky-top-->
+			<div class="container ">
+				<!--container-fluid-->
+				<a class="navbar-brand">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-droplet-half " viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+							<path fill-rule="evenodd"
+								d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+						</svg>
+						<i class="bi bi-droplet-half"></i>
+					</div>
+				</a>
+				<button class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<strong class="mx-3">Разделы</strong>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse mx-1" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" style="color:#ffc107" aria-current="page" href="index.html">На главную</a>
+						</li>
+						<li class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Персонал
+							</a>
+							<ul class="dropdown-menu dropdown-menu-dark bg-dark border border-secondary">
+								<li><a class="dropdown-item " href="personal.html" style="color:#ffc107">Сотрудники</a></li>
+								<li><a class="dropdown-item" href="vacancy.html" style="color:#ffc107">Вакансии</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<!-- <a class="nav-link" href="documentation.html">Документы</a> -->
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Наши работы</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="map.html">Карта работ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">О нас</a>
+						</li>
+						<p>
+							<li>
+								<b class="navbar-link" style="color: #ffc107">
+									<a class="nav-link" style="color: #ffc107" href="tel:+7-938-455-4652">8-938-455-46-52
+									</a>
+								</b>
+							</li>
+							<b class="nav-link">или</b>
+							<li>
+								<b class="navbar-link" style="color: #ffc107">
+									<a class="nav-link" style="color: #ffc107" href="tel:+7-918-204-4439">8-918-204-44-39
+									</a>
+								</b>
+							</li>
+						</p>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2 " type="search" placeholder="Напишите что искать..." aria-label="Search">
+						<button class="btn btn-outline-dark  btn-warning border border-warning border-2 "
+							type="submit">Найти</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<main>
+		<div class="container mt-5">
+			<div class=" row justify-content-center container-fluid">
+				<h1 class="text-center my-4 bg-dark">Руководство организации</h1>
+				<div class="col-fluid col-lg-4 my-3">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+								aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner rounded-5">
+							<div class="carousel-item active">
+								<img src="/media/Director_ingenear.webp"
+									class="d-block  img-thumbnail rounded float-middle mx-auto my-auto" alt="...">
+								<div class="carousel-caption d-none d-md-block ">
+									<h5 class="text-light bg-dark rounded-5 opacity-75">Баранов Дмитрий Фёдорович</h5>
+									<p class="fw-bold text-light bg-dark rounded-5 opacity-75">Директор(Главный инжинер)</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="/media/Director_ingenear.webp"
+									class="d-block  img-thumbnail rounded float-middle mx-auto my-auto" alt="...">
+								<div class="carousel-caption d-none d-md-block ">
+									<h5 class="text-light bg-dark rounded-5 opacity-75">Баранов Павел Дмитриевич</h5>
+									<p class="fw-bold text-light bg-dark rounded-5 opacity-75">Инжинер-Технадзор(Начальник участка)</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="/media/Director_ingenear.webp"
+									class="d-block  img-thumbnail rounded float-middle mx-auto my-auto" alt="...">
+								<div class="carousel-caption d-none d-md-block ">
+									<h5 class="text-light bg-dark rounded-5 opacity-75">Баранов Кирилл Дмитриквич</h5>
+									<p class="fw-bold text-light bg-dark rounded-5 opacity-75">Директор по развитию</p>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="container fw-bold">
+			<ul>
+				<li class="text-light bg-dark rounded-5 opacity-75">Баранов Дмитрий Фёдорович</li>
+				<li class="text-light bg-dark rounded-5 opacity-75">Баранов Павел Дмитриевич</li>
+				<li class="text-light bg-dark rounded-5 opacity-75">Баранов Кирилл Дмитриевич</li>
+			</ul>
+		</div> -->
+	</main>
+
+	<footer>
+		<!-- <div class="container bg-dark text-light"><p>Hello</p></div> -->
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+		</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+		integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+		</script>
+
+	<script type="module" src="/javaScript/vacancy.js"></script>
+</body>
+
+</html>
