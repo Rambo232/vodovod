@@ -1,0 +1,21 @@
+User-agent: *
+
+Disallow: /wp-admin/
+ 
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailWolf1.00
+Disallow: /
+
+Disallow: /response.html
+
+
+Sitemap: https://водовод.org/sitemap.xml
+
